@@ -818,7 +818,7 @@ transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon:focus{
-    fill:#4D5AE5;
+    fill: #4D5AE5;
 }
 
 .modal-box-comment{
@@ -901,4 +901,10 @@ background:#4D5AE5;
 box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
+}
+
+.modal-terms-cond+ .modal-policy>span {
+    background-color: #404bbf;
+    border:none;
+    fill:#F4F4FD;
 }
