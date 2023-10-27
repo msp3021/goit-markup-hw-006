@@ -849,10 +849,10 @@ transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(-50%);
     transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-style:focus-within {
+    fill:#4D5AE5;  } 
 
-.modal-input:focus .modal-icon {
-    fill: #4D5AE5;
-    } 
+
 
 .modal-box-comment{
     margin-bottom:16px;
